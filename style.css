@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.0rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    min-height: 100vh;
+    background-color: peru;
+    color: white;
+}
+
+section {
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    align-content: center;
+    text-decoration: solid;
+    justify-content: center;
+    text-align: center;
+}
+
+.time-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.time-section div {
+    width: 200px;
+    text-align: center;
+    border: rgb(202, 102, 3) 1px solid;
+    box-shadow: 10px 5px 10px 5px rgba(10, 10, 10, 0.4);
+    border-radius: 20px;;
+    padding: 1.5rem;
+    margin: 20px;
+}
+
+h2  {
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+form {
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+    border-bottom: orangered 2px solid;
+}
+
+form .submit {
+    color: white;
+    background-color: sienna;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*.time {
+    font-size: 2rem;
+    padding: 1.5rem;
+    margin: 1rem;
+}*/
